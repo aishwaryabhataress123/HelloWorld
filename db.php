@@ -1,9 +1,9 @@
 <?php
-$host = "";
-$user = "";
-$password = "";
-$dbname = "";
-$port = "";
+$host = "ec2-174-129-192-200.compute-1.amazonaws.com";
+$user = "ylgznljyyyahix";
+$password = "8a8e2ca2dfea4579a825bfb74559e2c4f97db8f74242e46303577a92b11a7766";
+$dbname = "d9ol4mjf9994vj";
+$port = "5432";
 try{
   //Set DSN data source name
     $dsn = "pgsql:host=" . $host . ";port=" . $port .";dbname=" . $dbname . ";user=" . $user . ";password=" . $password . ";";
