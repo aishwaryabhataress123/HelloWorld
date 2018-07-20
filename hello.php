@@ -1,13 +1,19 @@
-
 <?php include ('config.php')?>
-
 <html>
+<head>
+  <title>Heroku Test</title>
+</head>
 <body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <a class="navbar-brand" href="<?php echo ROOT_URL; ?>">Heroku Test</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
 
-<h1>My first PHP page</h1>
+</nav>
 
 <?php
-echo "Hello World!";
+echo 'Hello World';
 ?>
 
 </body>
